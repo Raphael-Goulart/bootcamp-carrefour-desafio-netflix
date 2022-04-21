@@ -1,0 +1,153 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*os elementos terão o mesmo tamanho, eles não irão transparecer para além da caixa */
+}
+
+.container{
+    margin-left: 10px;
+}
+
+body{
+background: var(--preto);
+font-family: 'Arial Black';
+color: rgb(66, 61, 61);
+}
+
+header .container{
+    display: flex;  /*para estudar*/
+    flex-direction: row;/*vem junto com o flex por padrão*/
+    align-items: center; /*alinha na vertical*/
+    justify-content: space-between; /*calcula o espaçamento dos intens separando eles*/
+}
+
+header .logo{
+    color: var(--vermelho);
+ 
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+   
+}
+
+header nav a:hover{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(248, 247, 247, 0.178), rgba(253, 253, 253, 0.329)), url('../img/queen_poster.jpg');
+    
+    height: 800px; /*muda altura*/
+    width: 600px;
+    background-size: cover; /*define só a area de cobertura*/
+
+    display: flex;
+    flex-direction: column;/*trabalhará em coluna uma acima da outra*/
+    justify-content: center; /*vai mandar o conteudo para baixo*/
+    align-items: flex-start;/*vai diminuir os botões, por começar da esquerda da pág*/
+    background-size: cover; /*define só a area de cobertura*/
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;/*trabalhará em coluna uma acima da outra*/
+    justify-content: center; /*vai mandar o conteudo para baixo*/
+    align-items: flex-start;/*vai diminuir os botões, por começar da esquerda da pág*/
+    margin-bottom: 15px;
+    
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.titulo{
+    font-size: 23px;
+    text-transform: uppercase;
+   
+}
+
+.sinopse{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.274);
+
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.747) ;
+    color: rgb(221, 221, 221);
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: rgb(66, 61, 61);
+}
+
+.botao a:hover{
+    background-color: rgba(0, 0, 0, 0) ;
+    color: rgb(221, 221, 221);
+}
+
+nav h2 a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 10px ;
+  
+   
+}
+
+.box-filmes{
+    display: block;
+
+    height: 100%;
+    width: 100%;
+
+    margin-top: 15px;
+}
+
+
+footer {
+	text-align: center;
+	padding-top: 40px; 
+}
+
+footer h3{
+    color: var(--vermelho);
+}
+
+.copyright {
+	color: rgb(221, 221, 221);
+	font-size: 13px;
+	margin-bottom: 20px; 
+}
+
+footer p a{
+    text-decoration: none;
+    color: rgb(66, 61, 61)
+}
