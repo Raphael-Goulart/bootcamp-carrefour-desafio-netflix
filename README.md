@@ -1,5 +1,6 @@
 ><h1>Landing-Page | RockOn</h1>
-![logo](https://user-images.githubusercontent.com/102624691/175290314-e6e5337f-8723-4c9d-8430-250c0ec51f8c.jpg)
+>
+>![logo](https://user-images.githubusercontent.com/102624691/175290314-e6e5337f-8723-4c9d-8430-250c0ec51f8c.jpg)
 
 
 ><h2>About</h2>
@@ -19,4 +20,4 @@
 >
 >This project was presented as part of the Digital Innovation One front-end training. 
 >
->DIO's site: https://www.dio.me/
+
